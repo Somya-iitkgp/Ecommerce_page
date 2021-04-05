@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+.prev-arrow{
+    position:absolute;
+    top:35%;
+    right:85%;
+    border-radius: 100%;
+    width: 2%;
+    height: 4%; 
+    color:grey;
+    outline:none;
+}
+.next-arrow{
+    position:absolute;
+    top:35%;
+    right:55%;
+    border-radius: 100%;
+    width: 2%;
+    height: 4%; 
+    color:grey;
+    outline:none;
+}
+.container{
+    background-color: rgb(250, 236, 245);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.continer2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.box{
+    display:flex;
+    flex-direction: row;
+    width:20%;
+    margin:3%;
+    justify-content: center;
+}
+.icon{
+    align-self: center;
+    margin-right:20px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    color:grey
+
+}
+hd{
+    font-size: medium;
+    font-weight:bolder;
+    color: rgb(78, 78, 78);
+}
+.div1{
+    width:35%;
+    display: flex;;
+    flex-direction: column;
+    margin-right: 3%;
+}
+.checked {
+    color: rgb(52, 206, 193);
+}
+.review{
+    color: rgb(52, 206, 193);
+}
+span{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.cart{
+    background-color: black;
+    color: white;
+    padding:10px 25px;
+    margin-right:5px;
+    margin-top:10px;
+    outline:white;
+}
+.wishlist{
+    background-color: white;
+    padding:10px 25px;
+    margin-left:5px;
+    margin-top:10px;
+    outline: black;
+}
+.img2, .img3, .img4, .img5, .img6{
+    width:18%;
+}  
+.div2{
+    width:35%;
+    display:flex ;
+    flex-direction: column;
+    margin-left: 3%;
+    width: 35%;
+}
+.submit{
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+    outline:none;
+    width:20%;
+    -webkit-appearance: none;
+}
